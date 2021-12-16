@@ -4,7 +4,7 @@ import App from './App';
 
 // const element = screen.getByTestId('custom-element')
 
-it('renders a welcome message when signed out', async () => {
+it('HOME is rendered on the screen', async () => {
   const { container } = render(
     <MemoryRouter>
       <App />

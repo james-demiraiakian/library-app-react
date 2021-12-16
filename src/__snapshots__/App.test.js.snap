@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders a welcome message when signed out 1`] = `
+exports[`HOME is rendered on the screen 1`] = `
 <div>
   <main
     class="container"
