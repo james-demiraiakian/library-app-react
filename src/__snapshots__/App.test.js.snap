@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HOME is rendered on the screen 1`] = `
+<div>
+  <main
+    class="container"
+  >
+    <h1>
+      Library Catalog
+    </h1>
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      HOME
+    </a>
+    <a
+      href="/books"
+    >
+      CATALOG
+    </a>
+     
+  </main>
+</div>
+`;

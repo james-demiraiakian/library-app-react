@@ -2,14 +2,16 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
-it('renders a welcome message when signed out', async () => {
+// const element = screen.getByTestId('custom-element')
+
+it('HOME is rendered on the screen', async () => {
   const { container } = render(
     <MemoryRouter>
       <App />
     </MemoryRouter>
   );
 
-  await screen.findByRole('list', { name: 'book list' });
+  screen.getByText('HOME');
 
   expect(container).toMatchSnapshot();
 });
