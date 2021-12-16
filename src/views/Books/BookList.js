@@ -19,7 +19,7 @@ function BookList() {
   if (loading) return <h1>Loading books...</h1>;
 
   return (
-    <ul className="book-list" aria-label="book list">
+    <ul className="book-list" aria-label="book list" data-testid="book-list">
       {books.map((book) => (
         <li key={book.book_id}>
           <Link key={book.book_id} to={`/books/${book.book_id}`}>
